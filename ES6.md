@@ -31,7 +31,7 @@ for循环的变量i跟函数内部的变量i不在同一作用域内，有各自
   
 
 二：变量的解析赋值
-   let [head,..tail] = [1,2,3,4];
+   let [head,...tail] = [1,2,3,4];
    console.log(head)   //  1
    consloe.log(tail)   //2,3,4
    如果解构不成功，变量的值就等于undefined。如果右边的等号不是数组的话也会报错。
